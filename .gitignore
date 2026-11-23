@@ -1,0 +1,17 @@
+# Compilados y ejecutables temporales
+*.class
+bin/
+target/
+out/
+src/out/
+src/lib/
+src/datasets/
+src/.idea/
+src/PF.iml
+*.log
+
+# Caches de IDE
+.idea/workspace.xml
+.idea/shelf/
+.idea/usage.statistics.xml
+.idea/tasks.xml
