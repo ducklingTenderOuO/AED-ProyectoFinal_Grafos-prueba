@@ -232,6 +232,7 @@ public class GrafoCanvas extends Pane {
 
             gc.beginPath();
             gc.moveTo(startX, startY);
+            gc.quadraticCurveTo(cx, cy, endX, endY);
             gc.stroke();
 
             double tDx = endX - cx;
