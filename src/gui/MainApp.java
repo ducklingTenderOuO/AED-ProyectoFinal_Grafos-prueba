@@ -688,4 +688,3 @@ public class MainApp extends Application {
         alert.showAndWait();
     }
 }
-}
